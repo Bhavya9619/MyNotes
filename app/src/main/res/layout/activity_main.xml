@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/note"
     tools:context=".MainActivity">
 
 
@@ -12,6 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
+        android:background="#F5EFEE "
         android:hint="Enter a message"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -20,7 +22,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:background="@color/colorPrimary"
+        android:background="#FF5733 "
         android:text="Add"
         android:textColor="#FFF"
         app:layout_constraintTop_toBottomOf="@+id/edNote" />

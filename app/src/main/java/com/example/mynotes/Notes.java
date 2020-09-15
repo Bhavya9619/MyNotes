@@ -1,8 +1,18 @@
 package com.example.mynotes;
 
+import androidx.room.ColumnInfo;
+import androidx.room.Entity;
+import androidx.room.PrimaryKey;
+
+
+@Entity(tableName = "Notes")
 public class Notes {
+
+    @PrimaryKey(autoGenerate = true)
+    @ColumnInfo(name = "id")
     private long id;
 
+    @ColumnInfo(name = "message")
     private String message;
 
     public Notes(long id, String message) {
